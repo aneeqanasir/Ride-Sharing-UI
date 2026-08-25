@@ -1,0 +1,45 @@
+.one{
+    background-color: #F9F9F9;
+}
+.para{
+    color: rgba(158, 157, 162, 1);
+    font-size: 18px;
+}
+.sec1 .para{
+    width: 400px;
+}
+.car{
+    width: 220px;
+    
+}
+.green{
+    color: rgba(117, 191, 122, 1);
+}
+.box{
+    background-color: rgba(117, 191, 122, 1);
+    border-radius: 5px;
+}
+.box input{
+    width: 499px;
+    height: 67px;
+    border-radius: 10px;
+    border: none;
+}
+.box button{
+    height: 64px;
+}
+.line{
+    width: 65px;
+    display: flex;
+    justify-content:center ;
+
+}
+.bg-color{
+    background-color: white;
+}
+.carF{
+    width: 177px;
+}
+.bgWhite{
+    background-color: white;
+}
