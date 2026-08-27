@@ -9,7 +9,7 @@
     width: 400px;
 }
 .car{
-    width: 220px;
+    width: 150px;
     
 }
 .green{
@@ -34,6 +34,20 @@
     justify-content:center ;
 
 }
+
+.mobile{
+    display: none;
+        background-image: url(./images/Ellipse\ 1.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        justify-content: center;
+        width: 100%;
+}
+.mobile img{
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
 .bg-color{
     background-color: white;
 }
@@ -42,4 +56,137 @@
 }
 .bgWhite{
     background-color: white;
+}
+
+@media only screen and (max-width:900px) {
+    .secOne h1{
+        font-size: 24px;
+    }
+    .secOne p{
+        font-size: 16px;
+        width: 300px !important;
+    }
+    .car{
+        width: 100px;
+    }
+    .map img{
+        width: 320px ; 
+        padding-top: 40px;
+    }
+    .greenBox {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        text-align: center !important;
+    }
+    .greenBox input{
+        width: 350px;
+        height: 50px;
+    }
+    
+    .greenBox button{
+        width: 350px;
+        height: 50px;
+    }
+    .circle{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .circleCount1{
+        text-align: center !important;
+        padding-bottom: 20px;
+        
+        
+    }
+    .circleCount1 .one1{
+        position: absolute;
+        top: 0;
+        left: 48%;
+        
+    }
+    .circleOut{
+        display: none;
+    }
+    .circleCount2{
+        
+        text-align: start !important;
+        align-items: center;
+        margin: 0 auto;
+
+    }
+    .two2{
+        display: block;
+        position: absolute;
+        top: 0;
+        left:35% !important;
+        
+    }
+    .lines img{
+        width: 50px;
+        align-items: center;
+    }
+    .textRow{
+        display: flex;
+        flex-direction: column;
+        justify-content:center ;
+        align-items: center;
+    
+    }
+    .textRow > div{
+        width: 100%;
+        text-align: center;
+
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .numImg {
+        display: block !important;
+        margin: 0 auto;
+        
+    }
+    
+    
+}
+
+@media only screen and (max-width: 576px){  
+    .firstRow{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 0 auto !important;
+    }
+    .firstRow h1{
+        text-align: center;
+        font-size: 27px;
+    }
+    
+    .circleCount1{
+        width: 250px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .mobile{
+        display: block;
+        
+    }
+    .footer{
+        align-items: start;
+    }
+    .space img{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .space{
+        width: 100%;
+    }
+    .para{
+        width: 300px !important;
+    }
 }
