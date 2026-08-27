@@ -161,6 +161,11 @@
         align-items: center;
         margin: 0 auto !important;
     }
+    .car{
+        
+        padding: 5px;
+        display: flex;
+    }
     .firstRow h1{
         text-align: center;
         font-size: 27px;
@@ -176,7 +181,7 @@
         
     }
     .footer{
-        align-items: start;
+        align-items: center;
     }
     .space img{
         display: flex;
@@ -186,7 +191,15 @@
     .space{
         width: 100%;
     }
-    .para{
-        width: 300px !important;
+    .right{
+        margin-left: 50px;
     }
+    
+    .para1{
+        width: 100%;
+    }
+    .paraSM{
+        text-align: center;
+    }
+    
 }
