@@ -5,9 +5,9 @@
     color: rgba(158, 157, 162, 1);
     font-size: 18px;
 }
-.sec1 .para{
+/* .sec1 .para{
     width: 400px;
-}
+} */
 .car{
     width: 150px;
     
@@ -43,11 +43,11 @@
         justify-content: center;
         width: 100%;
 }
-.mobile img{
+/* .mobile img{
     display: flex;
     margin: 0 auto;
     margin-bottom: 30px;
-}
+} */
 .bg-color{
     background-color: white;
 }
@@ -57,6 +57,14 @@
 .bgWhite{
     background-color: white;
 }
+.out{
+    max-width: 350px;
+}
+.circleOut{
+    width: 100%;
+    height: 350px;
+    margin: 0 auto;
+}
 
 @media only screen and (max-width:900px) {
    
@@ -65,7 +73,7 @@
     }
     .secOne p{
         font-size: 16px;
-        width: 300px !important;
+        /* width: 300px !important; */
     }
     .car{
         width: 100px;
@@ -162,10 +170,27 @@
         align-items: center;
         margin: 0 auto !important;
     }
+    .firstRow p{
+        text-align: center;
+    }
+
+    .map{
+        display: flex;
+        justify-content: center;
+    }
+    .para{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
     .car{
         
         padding: 5px;
         display: flex;
+    }
+    .cars img{
+        display: block !important; 
+       margin-left: 40%;
     }
     .firstRow h1{
         text-align: center;
@@ -179,7 +204,18 @@
     }
     .mobile{
         display: block;
-        
+        width: 340px;
+        height: 340px;
+        border-radius: 50%;
+        margin: 10px auto;
+        position: relative;
+    }
+    .mobile img{
+        width: 380px;
+        height: 420px;
+        position: absolute;
+        left: -13px;
+        top: -40px;
     }
     .footer{
         align-items: center;
@@ -195,6 +231,7 @@
     .right{
         margin-left: 50px;
     }
+    
     
     .para1{
         width: 100%;
